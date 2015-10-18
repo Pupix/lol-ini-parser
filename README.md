@@ -12,8 +12,7 @@ lol-ini-parser is installable via:
 ```js
 var IniParser = require('lol-ini-parser'),
     ini = new IniParser();
-    
-    // Read the package.json file
+
     ini.read('Kindred.ini', function (err, data) {
         console.log(data);
         //  {
